@@ -23,4 +23,8 @@ Please report issues [here](https://github.com/fuse-x/studio/issues).
 
 The source code is available for contributors. Please <a href="mailto:support@fuse-x.com">contact us</a> for details.
 
+## MyBuildToolPlugin
+
+The `MyBuildToolPlugin` is a new plugin added to the project. It provides a build tool capability for generating code during the build process. The plugin is defined in the `MyBuildToolPlugin/Package.swift` file and the main source file is `MyBuildToolPlugin/Plugins/MyBuildToolPlugin.swift`.
+
 <img class="release-badge" src="https://img.shields.io/badge/license-NDA-yellow?style=flat-square">
