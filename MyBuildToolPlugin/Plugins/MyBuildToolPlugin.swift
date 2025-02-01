@@ -11,7 +11,7 @@ struct MyBuildToolPlugin: BuildToolPlugin {
         let generatorTool = try context.tool(named: "my-code-generator")
 
         // Construct a build command for each source file with a particular suffix.
-        return sourceFiles.map(\.path).compactMap {
+        return sourceFiles.map(\.url).compactMap {
             createBuildCommand(for: $0, in: context.pluginWorkDirectory, with: generatorTool.path)
         }
     }
@@ -27,7 +27,7 @@ extension MyBuildToolPlugin: XcodeBuildToolPlugin {
         let generatorTool = try context.tool(named: "my-code-generator")
 
         // Construct a build command for each source file with a particular suffix.
-        return target.inputFiles.map(\.path).compactMap {
+        return target.inputFiles.map(\.url).compactMap {
             createBuildCommand(for: $0, in: context.pluginWorkDirectory, with: generatorTool.path)
         }
     }
