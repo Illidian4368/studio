@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>MyBuildToolPlugin.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>4D4C76A42D4E9104005E2F9B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4D4C76A52D4E9104005E2F9B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

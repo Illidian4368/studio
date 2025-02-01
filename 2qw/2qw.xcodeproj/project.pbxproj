@@ -1,4 +1,3 @@
-// !$*UTF8*$!
 {
 	archiveVersion = 1;
 	classes = {
@@ -8,6 +7,7 @@
 
 /* Begin PBXFileReference section */
 		4D4C76A52D4E9104005E2F9B /* 2qw.xpc */ = {isa = PBXFileReference; explicitFileType = "wrapper.xpc-service"; includeInIndex = 0; path = 2qw.xpc; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D4C76A52D4E9104005E2F9B /* MyBuildToolPlugin */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.framework"; path = MyBuildToolPlugin; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -38,6 +38,7 @@
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
+			4D4C76A52D4E9104005E2F9B /* MyBuildToolPlugin */ = {isa = PBXBuildFile; fileRef = 4D4C76A52D4E9104005E2F9B /* MyBuildToolPlugin */; };
 		};
 /* End PBXFrameworksBuildPhase section */
 
@@ -47,15 +48,24 @@
 			children = (
 				4D4C76A72D4E9104005E2F9B /* 2qw */,
 				4D4C76A62D4E9104005E2F9B /* Products */,
+				4D4C76A52D4E9104005E2F9B /* MyBuildToolPlugin */,
 			);
 			sourceTree = "<group>";
 		};
 		4D4C76A62D4E9104005E2F9B /* Products */ = {
+				isa = PBXGroup;
+				children = (
+					4D4C76A52D4E9104005E2F9B /* 2qw.xpc */,
+				);
+				name = Products;
+				sourceTree = "<group>";
+			};
+		4D4C76A52D4E9104005E2F9B /* MyBuildToolPlugin */ = {
 			isa = PBXGroup;
 			children = (
-				4D4C76A52D4E9104005E2F9B /* 2qw.xpc */,
+				4D4C76A52D4E9104005E2F9B /* MyBuildToolPlugin */,
 			);
-			name = Products;
+			name = MyBuildToolPlugin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +92,28 @@
 			productName = 2qw;
 			productReference = 4D4C76A52D4E9104005E2F9B /* 2qw.xpc */;
 			productType = "com.apple.product-type.xpc-service";
+			4D4C76A52D4E9104005E2F9B /* MyBuildToolPlugin */ = {
+				isa = PBXNativeTarget;
+				buildConfigurationList = 4D4C76B12D4E9104005E2F9B /* Build configuration list for PBXNativeTarget "MyBuildToolPlugin" */;
+				buildPhases = (
+					4D4C76A12D4E9104005E2F9B /* Sources */,
+					4D4C76A22D4E9104005E2F9B /* Frameworks */,
+					4D4C76A32D4E9104005E2F9B /* Resources */,
+				);
+				buildRules = (
+				);
+				dependencies = (
+				);
+				fileSystemSynchronizedGroups = (
+					4D4C76A72D4E9104005E2F9B /* MyBuildToolPlugin */,
+				);
+				name = MyBuildToolPlugin;
+				packageProductDependencies = (
+				);
+				productName = MyBuildToolPlugin;
+				productReference = 4D4C76A52D4E9104005E2F9B /* MyBuildToolPlugin */;
+				productType = "com.apple.product-type.framework";
+			};
 		};
 /* End PBXNativeTarget section */
 
@@ -113,6 +145,7 @@
 			projectRoot = "";
 			targets = (
 				4D4C76A42D4E9104005E2F9B /* 2qw */,
+				4D4C76A52D4E9104005E2F9B /* MyBuildToolPlugin */,
 			);
 		};
 /* End PBXProject section */
@@ -300,6 +333,50 @@
 			};
 			name = Release;
 		};
+		4D4C76B62D4E9104005E2F9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = 2qw/_qw.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S9ZL84LCM9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = 2qw/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = 2qw;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "p.-qw";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4D4C76B72D4E9104005E2F9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = 2qw/_qw.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S9ZL84LCM9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = 2qw/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = 2qw;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "p.-qw";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -317,6 +394,15 @@
 			buildConfigurations = (
 				4D4C76B22D4E9104005E2F9B /* Debug */,
 				4D4C76B32D4E9104005E2F9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D4C76B82D4E9104005E2F9B /* Build configuration list for PBXNativeTarget "MyBuildToolPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D4C76B62D4E9104005E2F9B /* Debug */,
+				4D4C76B72D4E9104005E2F9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
