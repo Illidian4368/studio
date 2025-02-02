@@ -1,3 +1,5 @@
+## Project Overview
+
 <p align="center"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/fuse-x/studio/raw/master/img/logo-darkmode.png">
   <img src="https://github.com/fuse-x/studio/raw/master/img/logo.png" width="216" alt="fuse X" />
