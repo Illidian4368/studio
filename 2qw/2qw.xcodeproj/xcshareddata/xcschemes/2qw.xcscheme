@@ -21,6 +21,20 @@
                ReferencedContainer = "container:2qw.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4D4C76A52D4E9104005E2F9B"
+               BuildableName = "MyBuildToolPlugin"
+               BlueprintName = "MyBuildToolPlugin"
+               ReferencedContainer = "container:2qw.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -29,6 +43,13 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
       shouldAutocreateTestPlan = "YES">
+      <BuildableReference
+         BuildableIdentifier = "primary"
+         BlueprintIdentifier = "4D4C76A52D4E9104005E2F9B"
+         BuildableName = "MyBuildToolPlugin"
+         BlueprintName = "MyBuildToolPlugin"
+         ReferencedContainer = "container:2qw.xcodeproj">
+      </BuildableReference>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -40,6 +61,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4D4C76A52D4E9104005E2F9B"
+            BuildableName = "MyBuildToolPlugin"
+            BlueprintName = "MyBuildToolPlugin"
+            ReferencedContainer = "container:2qw.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -47,21 +78,36 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4D4C76A42D4E9104005E2F9B"
-            BuildableName = "2qw.xpc"
-            BlueprintName = "2qw"
+            BlueprintIdentifier = "4D4C76A52D4E9104005E2F9B"
+            BuildableName = "MyBuildToolPlugin"
+            BlueprintName = "MyBuildToolPlugin"
             ReferencedContainer = "container:2qw.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
+      <BuildableReference
+         BuildableIdentifier = "primary"
+         BlueprintIdentifier = "4D4C76A52D4E9104005E2F9B"
+         BuildableName = "MyBuildToolPlugin"
+         BlueprintName = "MyBuildToolPlugin"
+         ReferencedContainer = "container:2qw.xcodeproj">
+      </BuildableReference>
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"
       revealArchiveInOrganizer = "YES">
+      <BuildableReference
+         BuildableIdentifier = "primary"
+         BlueprintIdentifier = "4D4C76A52D4E9104005E2F9B"
+         BuildableName = "MyBuildToolPlugin"
+         BlueprintName = "MyBuildToolPlugin"
+         ReferencedContainer = "container:2qw.xcodeproj">
+      </BuildableReference>
    </ArchiveAction>
 </Scheme>
