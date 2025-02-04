@@ -1,5 +1,3 @@
-## Project Overview
-
 <p align="center"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/fuse-x/studio/raw/master/img/logo-darkmode.png">
   <img src="https://github.com/fuse-x/studio/raw/master/img/logo.png" width="216" alt="fuse X" />
@@ -23,10 +21,10 @@ Please report issues [here](https://github.com/fuse-x/studio/issues).
 
 ## Source code
 
-The source code is available for contributors. Please <a href="mailto:support@fuse-x.com">contact us</a> for details.
-
-## MyBuildToolPlugin
-
-The `MyBuildToolPlugin` is a new plugin added to the project. It provides a build tool capability for generating code during the build process. The plugin is defined in the `MyBuildToolPlugin/Package.swift` file and the main source file is `MyBuildToolPlugin/Plugins/MyBuildToolPlugin.swift`.
+The source code is available for contributors. Please see [our repository](https://github.com/fuse-x/studio) for details.
 
 <img class="release-badge" src="https://img.shields.io/badge/license-NDA-yellow?style=flat-square">
+
+## Uninstall
+
+To uninstall the application, run the `uninstall.sh` script.

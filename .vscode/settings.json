@@ -1,0 +1,42 @@
+{
+    "netbeans.jdkhome": "/Users/patrik8393/Library/Application Support/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/latest",
+    "netbeans.project.jdkhome": "/Users/patrik8393/Library/Application Support/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/latest",
+    "java.jdt.ls.java.home": "/Users/patrik8393/Library/Application Support/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/latest",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-1.8",
+            "path": "/Users/patrik8393/Library/Application Support/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/8"
+        },
+        {
+            "name": "JavaSE-11",
+            "path": "/Users/patrik8393/Library/Application Support/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/11"
+        },
+        {
+            "name": "JavaSE-17",
+            "path": "/Users/patrik8393/Library/Application Support/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/17"
+        },
+        {
+            "name": "JavaSE-21",
+            "path": "/Users/patrik8393/Library/Application Support/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/21"
+        },
+        {
+            "name": "JavaSE-23",
+            "path": "/Users/patrik8393/Library/Application Support/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/latest",
+            "default": true
+        }
+    ],
+    "terminal.integrated.env.osx": {
+        "JAVA_HOME": "/Users/patrik8393/Library/Application Support/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/latest",
+        "PATH": "/Users/patrik8393/Library/Application Support/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/latest/bin:${env:PATH}"
+    },
+    "maven.terminal.customEnv": [
+        {
+            "environmentVariable": "JAVA_HOME",
+            "value": "/Users/patrik8393/Library/Application Support/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/latest"
+        },
+        {
+            "environmentVariable": "ZDOTDIR",
+            "value": "/Users/patrik8393/Library/Application Support/Code/User/globalStorage/pleiades.java-extension-pack-jdk"
+        }
+    ]
+}
