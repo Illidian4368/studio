@@ -5,9 +5,13 @@
     "version": "0.2.0",
     "configurations": [
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         
 >>>>>>> a7ec002 (Update launch.json)
+=======
+        
+>>>>>>> c0788f6dfd2c4da0508af1301af9a7af40057845
         {
             "type": "amiga",
             "request": "launch",
