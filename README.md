@@ -21,10 +21,20 @@ Please report issues [here](https://github.com/fuse-x/studio/issues).
 
 ## Source code
 
-The source code is available for contributors. Please see [our repository](https://github.com/fuse-x/studio) for details.
+The source code is available for contributors. Please <a href="mailto:support@fuse-x.com">contact us</a> for details.
 
 <img class="release-badge" src="https://img.shields.io/badge/license-NDA-yellow?style=flat-square">
 
-## Uninstall
+## Check all
 
-To uninstall the application, run the `uninstall.sh` script.
+The "Check all" functionality allows you to verify all the components in your project for consistency and correctness.
+
+### Usage
+
+To use the "Check all" feature, run the following command:
+
+```sh
+fuse-x check-all
+```
+
+This will trigger the "Check all" function, which will check all the components in your project and report any issues found.
