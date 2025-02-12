@@ -1,7 +1,7 @@
 {
-    "netbeans.jdkhome": "/Users/patrik8393/Library/Application Support/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/latest",
-    "netbeans.project.jdkhome": "/Users/patrik8393/Library/Application Support/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/latest",
-    "java.jdt.ls.java.home": "/Users/patrik8393/Library/Application Support/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/latest",
+    "netbeans.jdkhome": "/Users/patrik8393/Library/Application Support/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/17",
+    "netbeans.project.jdkhome": "/Users/patrik8393/Library/Application Support/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/17",
+    "java.jdt.ls.java.home": "/Users/patrik8393/Library/Application Support/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/17",
     "java.configuration.runtimes": [
         {
             "name": "JavaSE-1.8",
@@ -26,13 +26,13 @@
         }
     ],
     "terminal.integrated.env.osx": {
-        "JAVA_HOME": "/Users/patrik8393/Library/Application Support/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/latest",
-        "PATH": "/Users/patrik8393/Library/Application Support/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/latest/bin:${env:PATH}"
+        "JAVA_HOME": "/Users/patrik8393/Library/Application Support/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/17",
+        "PATH": "/Users/patrik8393/Library/Application Support/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/17/bin:${env:PATH}"
     },
     "maven.terminal.customEnv": [
         {
             "environmentVariable": "JAVA_HOME",
-            "value": "/Users/patrik8393/Library/Application Support/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/latest"
+            "value": "/Users/patrik8393/Library/Application Support/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/17"
         },
         {
             "environmentVariable": "ZDOTDIR",
