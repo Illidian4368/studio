@@ -4,14 +4,12 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-        
->>>>>>> a7ec002 (Update launch.json)
-=======
-        
->>>>>>> c0788f6dfd2c4da0508af1301af9a7af40057845
+        {
+            "type": "java",
+            "request": "attach",
+            "name": "Attach by Process ID",
+            "processId": "${command:PickJavaProcess}"
+        },
         {
             "type": "amiga",
             "request": "launch",
@@ -19,6 +17,15 @@
             "config": "A500",
             "program": "",
             "kickstart": "<Enter path to KICKSTART 1.3 ROM here>"
-        }
+        },
+
+{
+    "type": "amiga",
+    "request": "launch",
+    "name": "Ask for file name",
+    "config": "A500",
+    "program": "",
+    "kickstart": "<Enter path to KICKSTART 1.3 ROM here>"
+}
     ]
 }
